@@ -108,7 +108,7 @@ export default function Finish(){
 
                   <tr>
                     <td>
-                      <p>{location.state.shipmentMethod} shipment</p>
+                      <p>{location.state.shipmentTitle}</p>
                     </td>
   
                     <td className="rightTable">
