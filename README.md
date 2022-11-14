@@ -7,9 +7,16 @@ Created by : Irenna Violla
 Website Halaman Tampilan pada Delivery, Payment dan Finish
 
 Pada website ini, saya menggunakan react js sebagai mandatory utama dari pembuatan website.
-Terdapat tiga halaman untuk website yang telah saya buat yaitu Home.js, Payment.js dan Finish.js
+Terdapat tiga halaman untuk website yang telah saya buat yaitu Home.js, Payment.js dan Finish.js.
+Menggunakan react DOM 6.
 
-Masing-masing akan saya jelaskan disini.
+--> Terdapat beberapa styled component yang digunakan untuk berbagai macam bagian
+--> Untuk berpindah halaman menggunakan useNavigate yang nantinya dipanggil menggunakan location
+--> Kemudian terdapat passing data dari halaman satu ke halaman berikutnya sesuai data yang dibutuhkan
+--> Terdapat useRef untuk mengambil data yang dimasukkan
+--> Terdapat useForm untuk mengsubmit data dari form
+
+Penjelasan masing-masing halaman :
 
 1. Home.js 
 Merupakan halaman pertama dari proses untuk payment, disini terdapat form untuk mengisi email, nomor telepon dan alamat.
@@ -63,4 +70,4 @@ Namun perbedaannya, di sebelah kanan di tambahkan metode pembayaran yang sudah d
 Misal jika sebelumnya memilih bank transfer, maka akan muncurl "Bank Transfer" di sebelah kanannya.
 Total harga akan dimunculkan sesuai dengan jumlah harga yang sudah ada.
 
---> Terdapat beberapa styled component yang digunakan untuk berbagai macam bagian
+
