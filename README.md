@@ -6,7 +6,7 @@ Created by : Irenna Violla
 
 Website Halaman Tampilan pada Delivery, Payment dan Finish
 
-Pada website ini, saya menggunakan react js sebagai bahasa utama dari pembuatan website.
+Pada website ini, saya menggunakan react js sebagai mandatory utama dari pembuatan website.
 Terdapat tiga halaman untuk website yang telah saya buat yaitu Home.js, Payment.js dan Finish.js
 
 Masing-masing akan saya jelaskan disini.
@@ -36,3 +36,19 @@ Untuk button "Continue to payment" akan memindahkan halaman ke Payment.js. Semua
 maka akan muncul alert bahwa form harus diisi.
 
 2. Payment.js
+Merupakan halaman untuk memilih pengiriman dan metode pembayaran. 
+Terdapat beberapa pengiriman yaitu GO-SEND, JNE dan Personal Courier yang harus dipilih salah satu, 
+jika sudah dipilih salah satu, pengiriman dua yang lainnya akan ter disable.
+Sama dengan pengiriman, metode pembayaran harus dipilih salah satu, yang dua metode lainnya akan ter disable.
+
+Kemudian di bagian kanan terdapat div (bagian) untuk summary, sama seperti pada Home.js.
+Namun perbedaannya, di sebelah kanan terdapat text untuk menunjukan pengiriman apa yang dipilih 
+misal untuk Go-Send ("today by GO-SEND") begitupun dengan pengiriman lain, 
+jika di klik pengiriman yang lain, text lain akan berubah sesuai pengiriman tersebut.
+Lalu di bawahnya ditambahkan harga dari pengiriman sesuai dari pengiriman yang dipilih.
+Setelah itu pada button, text akan berubah sesuai metode pembayaran yang dipilih.
+Pembayaran dan pengiriman harus dipilih sebelum menekan button.
+
+Jika sudah terisi dan button di klik, maka akan berpindah ke halaman Finish.js.
+
+3. Finish.js
