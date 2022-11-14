@@ -52,3 +52,15 @@ Pembayaran dan pengiriman harus dipilih sebelum menekan button.
 Jika sudah terisi dan button di klik, maka akan berpindah ke halaman Finish.js.
 
 3. Finish.js
+Merupakan halaman terakhir dari website yang dibuat. Pada halaman ini terdapat ucapan "Thank you",
+kemudian terdapat order id yang merupakan random dari angka dan huruf dengan pengecualian 1, 0, O dan I,
+random menggunakan salah satu library yang sudah terdapat di react.
+Kemudian terdapat text pengiriman yang digunakan (sudah dipilih di halaman Payment.js)
+dan div untuk go back to homepage yang akan diarahkan ke halaman Home.js.
+
+Kemudian sama seperti dua halaman sebelumnya, terdapat div untuk summary. 
+Namun perbedaannya, di sebelah kanan di tambahkan metode pembayaran yang sudah dipilih tadi.
+Misal jika sebelumnya memilih bank transfer, maka akan muncurl "Bank Transfer" di sebelah kanannya.
+Total harga akan dimunculkan sesuai dengan jumlah harga yang sudah ada.
+
+--> Terdapat beberapa styled component yang digunakan untuk berbagai macam bagian
