@@ -47,7 +47,7 @@ function Home() {
     else if(phoneNumber.current.value == ""){
       alert("Nomor telepon tidak boleh kosong");
     }else{
-        console.log("Masuk Sini");
+        // console.log("Masuk Sini");
         navigation("/payment", {state:{dropPrice: dropPrice, totalPrice: totalPrice}});
     }
   }
@@ -82,13 +82,6 @@ function Home() {
 
     let len = phoneTxt.length;
     var validatePhone = true;
-
-    // for(var i = 0; i < len; i++){
-    //   if(!(phoneTxt[i] >= '0' && phoneTxt[i] <= '9') || !(phoneTxt[i]) == ',' || !(phoneTxt[i]) == '+' || !(phoneTxt[i]) == '-'){
-    //     validatePhone = false;
-    //     break;
-    //   }
-    // }
 
     if(len < 6 || len > 20){
       validatePhone = false;

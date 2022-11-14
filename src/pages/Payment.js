@@ -106,7 +106,7 @@ export default function Payment({dropPrice}) {
         disableDiv(virtual);
         setPayment("Pay with e-Wallet");
         setIsChoosedPayment(true);
-        console.log("Test" + isChoosedPayment);
+        // console.log("Test" + isChoosedPayment);
         setPaymentMethod("e-Wallet");
         
     }
@@ -131,7 +131,7 @@ export default function Payment({dropPrice}) {
 
     function clickButton(){
         
-        console.log(isChoosedPayment + ", " + isChoosedShipment);
+        // console.log(isChoosedPayment + ", " + isChoosedShipment);
 
         if(isChoosedShipment == false && isChoosedPayment == false){
             alert("Pengiriman dan pembayaran harus dipilih")
